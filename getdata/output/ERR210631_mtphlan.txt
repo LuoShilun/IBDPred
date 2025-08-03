@@ -1,0 +1,39 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210631.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210631_mtphlan.txt
+#56671 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	92.65503	
+k__Archaea	2157	7.34497	
+k__Bacteria|p__Firmicutes	2|1239	92.65503	
+k__Archaea|p__Euryarchaeota	2157|28890	7.34497	
+k__Bacteria|p__Firmicutes|c__CFGB3002	2|1239|	57.11544	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	33.97248	
+k__Archaea|p__Euryarchaeota|c__Methanobacteria	2157|28890|183925	7.34497	
+k__Bacteria|p__Firmicutes|c__Negativicutes	2|1239|909932	1.56711	
+k__Bacteria|p__Firmicutes|c__CFGB3002|o__OFGB3002	2|1239||	57.11544	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	33.97248	
+k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales	2157|28890|183925|2158	7.34497	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Acidaminococcales	2|1239|909932|1843488	1.56711	
+k__Bacteria|p__Firmicutes|c__CFGB3002|o__OFGB3002|f__FGB3002	2|1239|||	57.11544	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae	2|1239|186801|186802|186803	33.97248	
+k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae	2157|28890|183925|2158|2159	7.34497	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae	2|1239|909932|1843488|909930	1.56711	
+k__Bacteria|p__Firmicutes|c__CFGB3002|o__OFGB3002|f__FGB3002|g__GGB9464	2|1239||||	57.11544	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Mediterraneibacter	2|1239|186801|186802|186803|2316020	18.4676	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Anaerobutyricum	2|1239|186801|186802|186803|2569097	9.07711	
+k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter	2157|28890|183925|2158|2159|2172	7.34497	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia	2|1239|186801|186802|186803|572511	6.42777	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium	2|1239|909932|1843488|909930|33024	1.56711	
+k__Bacteria|p__Firmicutes|c__CFGB3002|o__OFGB3002|f__FGB3002|g__GGB9464|s__GGB9464_SGB14857	2|1239|||||	57.11544	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Mediterraneibacter|s__Ruminococcus_torques	2|1239|186801|186802|186803|2316020|33039	18.4676	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Anaerobutyricum|s__Anaerobutyricum_hallii	2|1239|186801|186802|186803|2569097|39488	9.07711	
+k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter|s__Methanobrevibacter_smithii	2157|28890|183925|2158|2159|2172|2173	7.34497	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia|s__Blautia_faecis	2|1239|186801|186802|186803|572511|871665	6.42777	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium|s__Phascolarctobacterium_succinatutens	2|1239|909932|1843488|909930|33024|626940	1.56711	
+k__Bacteria|p__Firmicutes|c__CFGB3002|o__OFGB3002|f__FGB3002|g__GGB9464|s__GGB9464_SGB14857|t__SGB14857	2|1239||||||	57.11544	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Mediterraneibacter|s__Ruminococcus_torques|t__SGB4608	2|1239|186801|186802|186803|2316020|33039|	18.4676	k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Lachnospiraceae_unclassified|s__Lachnospiraceae_bacterium_3_1_46FAA,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Lachnospiraceae_unclassified|s__Lachnospiraceae_bacterium_8_1_57FAA
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Anaerobutyricum|s__Anaerobutyricum_hallii|t__SGB4532	2|1239|186801|186802|186803|2569097|39488|	9.07711	
+k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter|s__Methanobrevibacter_smithii|t__SGB714	2157|28890|183925|2158|2159|2172|2173|	7.34497	k__Archaea|p__Euryarchaeota|c__Methanobacteria|o__Methanobacteriales|f__Methanobacteriaceae|g__Methanobrevibacter|s__Methanobrevibacter_sp_A54
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia|s__Blautia_faecis|t__SGB4820	2|1239|186801|186802|186803|572511|871665|	6.42777	k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia|s__Blautia_glucerasea,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_1001713B170214_170313_A12,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_D54t1_190329_F1,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_J1101004_170508_H5,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_1001275B_160808_F8,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_1001713B170207_170306_F1,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_AM42_11,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_D55t1_190419_H1,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Oscillospiraceae_unclassified|s__Oscillospiraceae_bacterium,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_D40t1_170626_H2,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_sp_1001136B_160425_D2,k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified|o__Bacteria_unclassified|f__Bacteria_unclassified|g__Bacteria_unclassified|s__bacterium_210702_DFI_5_13,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia|s__Blautia_sp_210702_DFI_1_159
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Acidaminococcales|f__Acidaminococcaceae|g__Phascolarctobacterium|s__Phascolarctobacterium_succinatutens|t__SGB5763_group	2|1239|909932|1843488|909930|33024|626940|	1.56711	

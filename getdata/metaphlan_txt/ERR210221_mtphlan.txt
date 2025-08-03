@@ -1,0 +1,13 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210221.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210221_mtphlan.txt
+#26526 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Firmicutes	2|1239	100.0	
+k__Bacteria|p__Firmicutes|c__CFGB38642	2|1239|	100.0	
+k__Bacteria|p__Firmicutes|c__CFGB38642|o__OFGB38642	2|1239||	100.0	
+k__Bacteria|p__Firmicutes|c__CFGB38642|o__OFGB38642|f__FGB38642	2|1239|||	100.0	
+k__Bacteria|p__Firmicutes|c__CFGB38642|o__OFGB38642|f__FGB38642|g__GGB9758	2|1239||||	100.0	
+k__Bacteria|p__Firmicutes|c__CFGB38642|o__OFGB38642|f__FGB38642|g__GGB9758|s__GGB9758_SGB15368	2|1239|||||	100.0	
+k__Bacteria|p__Firmicutes|c__CFGB38642|o__OFGB38642|f__FGB38642|g__GGB9758|s__GGB9758_SGB15368|t__SGB15368	2|1239||||||	100.0	

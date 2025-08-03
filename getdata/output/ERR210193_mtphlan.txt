@@ -1,0 +1,30 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210193.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210193_mtphlan.txt
+#30932 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Bacteroidota	2|976	89.92166	
+k__Bacteria|p__Firmicutes	2|1239	10.07834	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	89.92166	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	10.07834	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	89.92166	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	10.07834	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae	2|976|200643|171549|171552	54.08526	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	35.8364	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae	2|1239|186801|186802|186803	10.07834	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Prevotella	2|976|200643|171549|171552|838	29.39182	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__GGB1256	2|976|200643|171549|171552|	24.69345	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__GGB1387	2|976|200643|171549|815|	23.64262	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	12.19377	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus	2|1239|186801|186802|186803|33042	10.07834	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Prevotella|s__Prevotella_SGB1589	2|976|200643|171549|171552|838|	29.39182	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__GGB1256|s__GGB1256_SGB1684	2|976|200643|171549|171552||	24.69345	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__GGB1387|s__GGB1387_SGB1895	2|976|200643|171549|815||	23.64262	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_SGB1909	2|976|200643|171549|815|816|	12.19377	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_eutactus	2|1239|186801|186802|186803|33042|33043	10.07834	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Prevotella|s__Prevotella_SGB1589|t__SGB1589	2|976|200643|171549|171552|838||	29.39182	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__GGB1256|s__GGB1256_SGB1684|t__SGB1684	2|976|200643|171549|171552|||	24.69345	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__GGB1387|s__GGB1387_SGB1895|t__SGB1895	2|976|200643|171549|815|||	23.64262	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_SGB1909|t__SGB1909	2|976|200643|171549|815|816||	12.19377	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_eutactus|t__SGB5117	2|1239|186801|186802|186803|33042|33043|	10.07834	k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_AF16_22,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_ART55_1,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_AF38_1,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_AF16_5,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_TF11_13,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_OM06_34AC,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_BIOML_A1,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_AF19_8AC,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_sp_AM14_16

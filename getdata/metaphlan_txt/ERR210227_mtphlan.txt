@@ -1,0 +1,20 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210227.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210227_mtphlan.txt
+#20097 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Firmicutes	2|1239	83.33349	
+k__Bacteria|p__Bacteroidota	2|976	16.66651	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	83.33349	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	16.66651	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	83.33349	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	16.66651	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis	2|1239|186801|186802|538999	83.33349	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	16.66651	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis|g__Candidatus_Cibionibacter	2|1239|186801|186802|538999|2527773	83.33349	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	16.66651	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis|g__Candidatus_Cibionibacter|s__Candidatus_Cibionibacter_quicibialis	2|1239|186801|186802|538999|2527773|2500537	83.33349	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_stercoris	2|976|200643|171549|815|816|46506	16.66651	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis|g__Candidatus_Cibionibacter|s__Candidatus_Cibionibacter_quicibialis|t__SGB15286	2|1239|186801|186802|538999|2527773|2500537|	83.33349	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_stercoris|t__SGB1830	2|976|200643|171549|815|816|46506|	16.66651	k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_NSJ_48

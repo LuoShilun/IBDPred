@@ -1,0 +1,46 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210048.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210048_mtphlan.txt
+#44068 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Bacteroidota	2|976	55.4528	
+k__Bacteria|p__Firmicutes	2|1239	23.6595	
+k__Bacteria|p__Tenericutes	2|544448	19.16944	
+k__Bacteria|p__Candidatus_Melainabacteria	2|1798710	1.71826	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	55.4528	
+k__Bacteria|p__Tenericutes|c__CFGB1789	2|544448|	19.16944	
+k__Bacteria|p__Firmicutes|c__CFGB31488	2|1239|	18.18131	
+k__Bacteria|p__Firmicutes|c__CFGB2833	2|1239|	4.02748	
+k__Bacteria|p__Candidatus_Melainabacteria|c__CFGB2107	2|1798710|	1.71826	
+k__Bacteria|p__Firmicutes|c__CFGB1479	2|1239|	1.45071	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	55.4528	
+k__Bacteria|p__Tenericutes|c__CFGB1789|o__OFGB1789	2|544448||	19.16944	
+k__Bacteria|p__Firmicutes|c__CFGB31488|o__OFGB31488	2|1239||	18.18131	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833	2|1239||	4.02748	
+k__Bacteria|p__Candidatus_Melainabacteria|c__CFGB2107|o__OFGB2107	2|1798710||	1.71826	
+k__Bacteria|p__Firmicutes|c__CFGB1479|o__OFGB1479	2|1239||	1.45071	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae	2|976|200643|171549|171552	55.4528	
+k__Bacteria|p__Tenericutes|c__CFGB1789|o__OFGB1789|f__FGB1789	2|544448|||	19.16944	
+k__Bacteria|p__Firmicutes|c__CFGB31488|o__OFGB31488|f__FGB31488	2|1239|||	18.18131	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833	2|1239|||	4.02748	
+k__Bacteria|p__Candidatus_Melainabacteria|c__CFGB2107|o__OFGB2107|f__FGB2107	2|1798710|||	1.71826	
+k__Bacteria|p__Firmicutes|c__CFGB1479|o__OFGB1479|f__FGB1479	2|1239|||	1.45071	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella	2|976|200643|171549|171552|2974251	55.4528	
+k__Bacteria|p__Tenericutes|c__CFGB1789|o__OFGB1789|f__FGB1789|g__GGB4754	2|544448||||	19.16944	
+k__Bacteria|p__Firmicutes|c__CFGB31488|o__OFGB31488|f__FGB31488|g__GGB4650	2|1239||||	18.18131	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833|g__GGB9057	2|1239||||	4.02748	
+k__Bacteria|p__Candidatus_Melainabacteria|c__CFGB2107|o__OFGB2107|f__FGB2107|g__GGB6019	2|1798710||||	1.71826	
+k__Bacteria|p__Firmicutes|c__CFGB1479|o__OFGB1479|f__FGB1479|g__GGB3751	2|1239||||	1.45071	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella|s__Segatella_copri	2|976|200643|171549|171552|2974251|165179	55.4528	
+k__Bacteria|p__Tenericutes|c__CFGB1789|o__OFGB1789|f__FGB1789|g__GGB4754|s__GGB4754_SGB6584	2|544448|||||	19.16944	
+k__Bacteria|p__Firmicutes|c__CFGB31488|o__OFGB31488|f__FGB31488|g__GGB4650|s__GGB4650_SGB6437	2|1239|||||	18.18131	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833|g__GGB9057|s__GGB9057_SGB13968	2|1239|||||	4.02748	
+k__Bacteria|p__Candidatus_Melainabacteria|c__CFGB2107|o__OFGB2107|f__FGB2107|g__GGB6019|s__GGB6019_SGB8651	2|1798710|||||	1.71826	
+k__Bacteria|p__Firmicutes|c__CFGB1479|o__OFGB1479|f__FGB1479|g__GGB3751|s__GGB3751_SGB5099	2|1239|||||	1.45071	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella|s__Segatella_copri|t__SGB1626	2|976|200643|171549|171552|2974251|165179|	55.4528	
+k__Bacteria|p__Tenericutes|c__CFGB1789|o__OFGB1789|f__FGB1789|g__GGB4754|s__GGB4754_SGB6584|t__SGB6584	2|544448||||||	19.16944	
+k__Bacteria|p__Firmicutes|c__CFGB31488|o__OFGB31488|f__FGB31488|g__GGB4650|s__GGB4650_SGB6437|t__SGB6437	2|1239||||||	18.18131	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833|g__GGB9057|s__GGB9057_SGB13968|t__SGB13968	2|1239||||||	4.02748	
+k__Bacteria|p__Candidatus_Melainabacteria|c__CFGB2107|o__OFGB2107|f__FGB2107|g__GGB6019|s__GGB6019_SGB8651|t__SGB8651	2|1798710||||||	1.71826	
+k__Bacteria|p__Firmicutes|c__CFGB1479|o__OFGB1479|f__FGB1479|g__GGB3751|s__GGB3751_SGB5099|t__SGB5099	2|1239||||||	1.45071	

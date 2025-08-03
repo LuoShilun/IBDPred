@@ -1,0 +1,54 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210235.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210235_mtphlan.txt
+#65687 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Firmicutes	2|1239	93.42355	
+k__Bacteria|p__Bacteroidota	2|976	6.57645	
+k__Bacteria|p__Firmicutes|c__Negativicutes	2|1239|909932	44.82089	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	38.9021	
+k__Bacteria|p__Firmicutes|c__CFGB1355	2|1239|	6.6806	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	6.57645	
+k__Bacteria|p__Firmicutes|c__CFGB1765	2|1239|	3.01996	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales	2|1239|909932|1843489	44.82089	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	38.9021	
+k__Bacteria|p__Firmicutes|c__CFGB1355|o__OFGB1355	2|1239||	6.6806	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	6.57645	
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765	2|1239||	3.01996	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae	2|1239|909932|1843489|31977	44.82089	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae	2|1239|186801|186802|216572	25.63084	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis	2|1239|186801|186802|538999	7.35147	
+k__Bacteria|p__Firmicutes|c__CFGB1355|o__OFGB1355|f__FGB1355	2|1239|||	6.6806	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae	2|976|200643|171549|171550	6.57645	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae	2|1239|186801|186802|31979	5.91979	
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765	2|1239|||	3.01996	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Dialister	2|1239|909932|1843489|31977|39948	44.82089	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9708	2|1239|186801|186802|216572|	14.77442	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium	2|1239|186801|186802|216572|216851	8.1119	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis|g__Candidatus_Cibionibacter	2|1239|186801|186802|538999|2527773	7.35147	
+k__Bacteria|p__Firmicutes|c__CFGB1355|o__OFGB1355|f__FGB1355|g__GGB3306	2|1239||||	6.6806	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes	2|976|200643|171549|171550|239759	6.57645	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae|g__Clostridium	2|1239|186801|186802|31979|1485	5.91979	
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765|g__GGB4559	2|1239||||	3.01996	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9635	2|1239|186801|186802|216572|	2.74452	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Dialister|s__Dialister_succinatiphilus	2|1239|909932|1843489|31977|39948|487173	44.82089	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9708|s__GGB9708_SGB15234	2|1239|186801|186802|216572||	14.77442	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_prausnitzii	2|1239|186801|186802|216572|216851|853	8.1119	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis|g__Candidatus_Cibionibacter|s__Candidatus_Cibionibacter_quicibialis	2|1239|186801|186802|538999|2527773|2500537	7.35147	
+k__Bacteria|p__Firmicutes|c__CFGB1355|o__OFGB1355|f__FGB1355|g__GGB3306|s__GGB3306_SGB4372	2|1239|||||	6.6806	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_putredinis	2|976|200643|171549|171550|239759|28117	6.57645	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae|g__Clostridium|s__Clostridium_SGB4909	2|1239|186801|186802|31979|1485|	5.91979	
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765|g__GGB4559|s__GGB4559_SGB6293	2|1239|||||	3.01996	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9635|s__GGB9635_SGB15106	2|1239|186801|186802|216572||	2.74452	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Dialister|s__Dialister_succinatiphilus|t__SGB5818	2|1239|909932|1843489|31977|39948|487173|	44.82089	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9708|s__GGB9708_SGB15234|t__SGB15234	2|1239|186801|186802|216572|||	14.77442	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Eubacteriales_incertae_sedis|g__Candidatus_Cibionibacter|s__Candidatus_Cibionibacter_quicibialis|t__SGB15286	2|1239|186801|186802|538999|2527773|2500537|	7.35147	
+k__Bacteria|p__Firmicutes|c__CFGB1355|o__OFGB1355|f__FGB1355|g__GGB3306|s__GGB3306_SGB4372|t__SGB4372	2|1239||||||	6.6806	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_putredinis|t__SGB2318	2|976|200643|171549|171550|239759|28117|	6.57645	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Clostridiaceae|g__Clostridium|s__Clostridium_SGB4909|t__SGB4909	2|1239|186801|186802|31979|1485||	5.91979	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_prausnitzii|t__SGB15339	2|1239|186801|186802|216572|216851|853|	4.11678	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_prausnitzii|t__SGB15342	2|1239|186801|186802|216572|216851|853|	3.27525	k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_AM43_5AT,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_BIOML_A3,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_Marseille_Q4896,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_OF03_6AC,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_AF27_11BH,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_AF10_46,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_BIOML_A2,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_I4384
+k__Bacteria|p__Firmicutes|c__CFGB1765|o__OFGB1765|f__FGB1765|g__GGB4559|s__GGB4559_SGB6293|t__SGB6293	2|1239||||||	3.01996	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9635|s__GGB9635_SGB15106|t__SGB15106	2|1239|186801|186802|216572|||	2.74452	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_prausnitzii|t__SGB15318	2|1239|186801|186802|216572|216851|853|	0.71987	k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_Marseille_Q4137,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_4P15,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_Marseille_Q0746,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_CLA_AA_H283,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_CLA_AA_H254,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_CLA_AA_H223,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_IP329,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_duncaniae,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_BCRC_81149,k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_sp_I2392

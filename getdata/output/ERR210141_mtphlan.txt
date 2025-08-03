@@ -1,0 +1,20 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210141.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210141_mtphlan.txt
+#15166 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Bacteroidota	2|976	98.0658	
+k__Bacteria|p__Firmicutes	2|1239	1.9342	
+k__Bacteria|p__Bacteroidota|c__CFGB49965	2|976|	98.0658	
+k__Bacteria|p__Firmicutes|c__CFGB2833	2|1239|	1.9342	
+k__Bacteria|p__Bacteroidota|c__CFGB49965|o__OFGB49965	2|976||	98.0658	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833	2|1239||	1.9342	
+k__Bacteria|p__Bacteroidota|c__CFGB49965|o__OFGB49965|f__FGB49965	2|976|||	98.0658	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833	2|1239|||	1.9342	
+k__Bacteria|p__Bacteroidota|c__CFGB49965|o__OFGB49965|f__FGB49965|g__GGB1418	2|976||||	98.0658	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833|g__GGB74665	2|1239||||	1.9342	
+k__Bacteria|p__Bacteroidota|c__CFGB49965|o__OFGB49965|f__FGB49965|g__GGB1418|s__GGB1418_SGB1953	2|976|||||	98.0658	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833|g__GGB74665|s__GGB74665_SGB13972	2|1239|||||	1.9342	
+k__Bacteria|p__Bacteroidota|c__CFGB49965|o__OFGB49965|f__FGB49965|g__GGB1418|s__GGB1418_SGB1953|t__SGB1953	2|976||||||	98.0658	
+k__Bacteria|p__Firmicutes|c__CFGB2833|o__OFGB2833|f__FGB2833|g__GGB74665|s__GGB74665_SGB13972|t__SGB13972	2|1239||||||	1.9342	

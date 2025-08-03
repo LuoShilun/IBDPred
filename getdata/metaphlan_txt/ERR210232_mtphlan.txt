@@ -1,0 +1,26 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210232.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210232_mtphlan.txt
+#32529 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Bacteroidota	2|976	55.75997	
+k__Bacteria|p__Firmicutes	2|1239	44.24003	
+k__Bacteria|p__Bacteroidota|c__CFGB658	2|976|	55.75997	
+k__Bacteria|p__Firmicutes|c__CFGB2942	2|1239|	28.32965	
+k__Bacteria|p__Firmicutes|c__CFGB1354	2|1239|	15.91037	
+k__Bacteria|p__Bacteroidota|c__CFGB658|o__OFGB658	2|976||	55.75997	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942	2|1239||	28.32965	
+k__Bacteria|p__Firmicutes|c__CFGB1354|o__OFGB1354	2|1239||	15.91037	
+k__Bacteria|p__Bacteroidota|c__CFGB658|o__OFGB658|f__FGB658	2|976|||	55.75997	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942	2|1239|||	28.32965	
+k__Bacteria|p__Firmicutes|c__CFGB1354|o__OFGB1354|f__FGB1354	2|1239|||	15.91037	
+k__Bacteria|p__Bacteroidota|c__CFGB658|o__OFGB658|f__FGB658|g__GGB1627	2|976||||	55.75997	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942|g__GGB9278	2|1239||||	28.32965	
+k__Bacteria|p__Firmicutes|c__CFGB1354|o__OFGB1354|f__FGB1354|g__GGB3304	2|1239||||	15.91037	
+k__Bacteria|p__Bacteroidota|c__CFGB658|o__OFGB658|f__FGB658|g__GGB1627|s__GGB1627_SGB2227	2|976|||||	55.75997	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942|g__GGB9278|s__GGB9278_SGB14230	2|1239|||||	28.32965	
+k__Bacteria|p__Firmicutes|c__CFGB1354|o__OFGB1354|f__FGB1354|g__GGB3304|s__GGB3304_SGB4367	2|1239|||||	15.91037	
+k__Bacteria|p__Bacteroidota|c__CFGB658|o__OFGB658|f__FGB658|g__GGB1627|s__GGB1627_SGB2227|t__SGB2227	2|976||||||	55.75997	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942|g__GGB9278|s__GGB9278_SGB14230|t__SGB14230	2|1239||||||	28.32965	
+k__Bacteria|p__Firmicutes|c__CFGB1354|o__OFGB1354|f__FGB1354|g__GGB3304|s__GGB3304_SGB4367|t__SGB4367	2|1239||||||	15.91037	

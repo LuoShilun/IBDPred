@@ -1,0 +1,24 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210026.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210026_mtphlan.txt
+#38693 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Bacteroidota	2|976	94.89606	
+k__Bacteria|p__Firmicutes	2|1239	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	94.89606	
+k__Bacteria|p__Firmicutes|c__CFGB2942	2|1239|	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	94.89606	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942	2|1239||	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae	2|976|200643|171549|171550	91.01325	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942	2|1239|||	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	3.88281	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes	2|976|200643|171549|171550|239759	91.01325	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942|g__GGB9278	2|1239||||	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	3.88281	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_SGB2313	2|976|200643|171549|171550|239759|	91.01325	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942|g__GGB9278|s__GGB9278_SGB14230	2|1239|||||	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_cellulosilyticus	2|976|200643|171549|815|816|246787	3.88281	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_SGB2313|t__SGB2313	2|976|200643|171549|171550|239759||	91.01325	
+k__Bacteria|p__Firmicutes|c__CFGB2942|o__OFGB2942|f__FGB2942|g__GGB9278|s__GGB9278_SGB14230|t__SGB14230	2|1239||||||	5.10394	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_cellulosilyticus|t__SGB1844	2|976|200643|171549|815|816|246787|	3.88281	k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_14_A,k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_intestinalis

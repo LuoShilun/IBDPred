@@ -1,0 +1,39 @@
+#mpa_vJun23_CHOCOPhlAnSGB_202403
+#/home/ubuntu/anaconda3/envs/metaphlan/bin/metaphlan /media/ubuntu/My Passport/NieisenHB 2014 PRIEB1220/ERR210260.fastq --nproc 60 --input_type fastq -o /mnt/data/output/ERR210260_mtphlan.txt
+#43923 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Firmicutes	2|1239	63.57543	
+k__Bacteria|p__Bacteroidota	2|976	19.11861	
+k__Bacteria|p__Verrucomicrobia	2|74201	17.30597	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	36.39137	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2|976|200643	19.11861	
+k__Bacteria|p__Firmicutes|c__Negativicutes	2|1239|909932	17.99785	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae	2|74201|203494	17.30597	
+k__Bacteria|p__Firmicutes|c__CFGB79294	2|1239|	9.18621	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales	2|1239|186801|186802	36.39137	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	19.11861	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales	2|1239|909932|1843489	17.99785	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales	2|74201|203494|48461	17.30597	
+k__Bacteria|p__Firmicutes|c__CFGB79294|o__OFGB79294	2|1239||	9.18621	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae	2|1239|186801|186802|216572	36.39137	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae	2|976|200643|171549|171552	19.11861	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae	2|1239|909932|1843489|31977	17.99785	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae	2|74201|203494|48461|1647988	17.30597	
+k__Bacteria|p__Firmicutes|c__CFGB79294|o__OFGB79294|f__FGB79294	2|1239|||	9.18621	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9602	2|1239|186801|186802|216572|	36.39137	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__GGB1256	2|976|200643|171549|171552|	19.11861	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__GGB4263	2|1239|909932|1843489|31977|	17.99785	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia	2|74201|203494|48461|1647988|239934	17.30597	
+k__Bacteria|p__Firmicutes|c__CFGB79294|o__OFGB79294|f__FGB79294|g__GGB87445	2|1239||||	9.18621	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9602|s__GGB9602_SGB15031	2|1239|186801|186802|216572||	36.39137	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__GGB1256|s__GGB1256_SGB1684	2|976|200643|171549|171552||	19.11861	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__GGB4263|s__GGB4263_SGB5801	2|1239|909932|1843489|31977||	17.99785	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_muciniphila	2|74201|203494|48461|1647988|239934|239935	17.30597	
+k__Bacteria|p__Firmicutes|c__CFGB79294|o__OFGB79294|f__FGB79294|g__GGB87445|s__GGB87445_SGB53522	2|1239|||||	9.18621	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__GGB9602|s__GGB9602_SGB15031|t__SGB15031	2|1239|186801|186802|216572|||	36.39137	
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__GGB1256|s__GGB1256_SGB1684|t__SGB1684	2|976|200643|171549|171552|||	19.11861	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__GGB4263|s__GGB4263_SGB5801|t__SGB5801	2|1239|909932|1843489|31977|||	17.99785	
+k__Bacteria|p__Verrucomicrobia|c__Verrucomicrobiae|o__Verrucomicrobiales|f__Akkermansiaceae|g__Akkermansia|s__Akkermansia_muciniphila|t__SGB9226	2|74201|203494|48461|1647988|239934|239935|	17.30597	
+k__Bacteria|p__Firmicutes|c__CFGB79294|o__OFGB79294|f__FGB79294|g__GGB87445|s__GGB87445_SGB53522|t__SGB53522	2|1239||||||	9.18621	
