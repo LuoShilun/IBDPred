@@ -3,8 +3,9 @@ expriment: 实验过程，
         .pkl为训练好的模型
     dataProcess为数据处理过程,包含RF随机森林特征重要性筛选、MI-VAR互信息+方差联合筛选、AutoEncoder自编码筛选
     dataset为经过数据处理的训练集和测试集
-expriment/NewExpriment: 更新实验过程，更换训练集和测试集
-results为论文实验结果
+expriment/NewExpriment: 更新实验过程，更换训练集和测试集(论文实验，训练集NielsenHB_2014，测试集：hab数据集（HallAB_2017）)
+        results为论文实验结果
+
 
 hmp2019数据集：样本数1627，患病样本1201，健康样本426，（实际共132名受试者，每人多次采样）
 
