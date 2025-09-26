@@ -5,8 +5,8 @@ from tensorflow.keras import layers, models
 from sklearn.model_selection import train_test_split
 
 # 数据加载
-train_data = pd.read_csv("../NewExpriment/数据处理/实验4/r.csv")
-test_data = pd.read_csv("../NewExpriment/数据处理/实验4/hab.csv")
+train_data = pd.read_csv("../NewExpriment/r.csv")
+test_data = pd.read_csv("../NewExpriment/hab.csv")
 
 # 分离特征和标签
 X_train = train_data.drop('Disease', axis=1)

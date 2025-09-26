@@ -78,16 +78,16 @@ def plot_ensemble_models_from_saved_data():
     # 设置图形样式
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
-    plt.xlabel('False Positive Rate', fontsize=12)
-    plt.ylabel('True Positive Rate', fontsize=12)
-    plt.title('ROC Curves of the Improved Stacking Model on Different Datasets', fontsize=16)
+    plt.xlabel('False Positive Rate', fontsize=18)
+    plt.ylabel('True Positive Rate', fontsize=18)
+    plt.title('ROC Curves of the Improved Stacking Model on Different Datasets', fontsize=20)
     plt.grid(True, alpha=0.3)
     
     # 添加图例
-    plt.legend(loc="lower right", fontsize=10)
+    plt.legend(loc="lower right", fontsize=16)
     
     # 保存图形
-    plt.savefig('ensemble_models_roc_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig('./resultsImage/ensemble_models_roc_comparison.png', dpi=300, bbox_inches='tight')
     plt.close()
     
     print("所有集成模型的ROC曲线图已保存为 ensemble_models_roc_comparison.png")

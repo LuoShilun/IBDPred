@@ -208,7 +208,7 @@ def evaluate_model(model, train_data, test_data):
     print("=" * 50 + "\n")
 
     # 保存训练好的模型
-    joblib.dump(model, f"model_new_{feature_method}.pkl")
+    joblib.dump(model, f"./ModelPKL/model_new_{feature_method}.pkl")
     print(f"模型已保存为 model_new_{feature_method}.pkl 文件")
 
     # 返回模型、训练数据、交叉验证预测概率和真实标签
@@ -217,10 +217,65 @@ def evaluate_model(model, train_data, test_data):
         'mean_tpr': mean_tpr,
         'auc': np.mean(cv_results["test_auc"])
     }
+#alpha确定精确性权重的占比
+# ================= 加入搜索alpha evaluate_model() =================
+# def evaluate_model(model, train_data, test_data):
+#     """执行模型训练与指标输出（含动态 α 搜索）"""
+#     X_train = train_data.drop('Disease', axis=1)
+#     y_train = train_data['Disease']
+#     X_test  = test_data.drop('Disease', axis=1)
+#     y_test  = test_data['Disease']
+#
+#     # ---------- 1. 在训练集上用交叉验证搜索最佳 α ----------
+#     best_alpha, best_auc = None, -np.inf
+#     alpha_grid = np.arange(0.1, 1.01, 0.1)
+#     metrics = {'auc': 'roc_auc'}
+#
+#     for alpha in alpha_grid:
+#         model.alpha = alpha                          # 动态设置 α
+#         cv = cross_validate(model, X_train, y_train,
+#                             cv=5, scoring=metrics,
+#                             return_train_score=False)
+#         mean_auc = cv['test_auc'].mean()
+#         if mean_auc > best_auc:
+#             best_auc, best_alpha = mean_auc, alpha
+#
+#     print(f"\n最佳 α = {best_alpha:.2f}, 对应 CV-AUC = {best_auc:.4f}")
+#
+#     # ---------- 2. 用最佳 α 重新训练并评估 ----------
+#     model.alpha = best_alpha
+#     cv_results = cross_validate(model, X_train, y_train, cv=5,
+#                                 scoring={'auc': 'roc_auc'},
+#                                 return_train_score=False,
+#                                 return_estimator=True)
+#
+#     mean_fpr = np.linspace(0, 1, 100)
+#     tprs = []
+#     for est in cv_results['estimator']:
+#         proba = est.predict_proba(X_train)[:, 1]
+#         fpr, tpr, _ = roc_curve(y_train, proba)
+#         tprs.append(np.interp(mean_fpr, fpr, tpr))
+#     mean_tpr = np.mean(tprs, axis=0)
+#
+#     # 在全部训练集上最终训练
+#     model.fit(X_train, y_train)
+#
+#     # 测试集表现
+#     y_pred  = model.predict(X_test)
+#     y_prob  = model.predict_proba(X_test)[:, 1]
+#     print("\n测试集指标")
+#     print(f"Accuracy : {accuracy_score(y_test, y_pred):.4f}")
+#     print(f"Precision: {precision_score(y_test, y_pred):.4f}")
+#     print(f"Recall   : {recall_score(y_test, y_pred):.4f}")
+#     print(f"F1-score : {f1_score(y_test, y_pred):.4f}")
+#     print(f"AUC      : {roc_auc_score(y_test, y_prob):.4f}")
+#
+#     joblib.dump(model, f"model_new_{feature_method}.pkl")
+#     return {'mean_fpr': mean_fpr, 'mean_tpr': mean_tpr, 'auc': best_auc}
 
 def plot_roc_curves(cv_results_dict):
     """绘制模型在不同数据集上的ROC曲线
-    
+
     参数:
     - cv_results_dict: 字典，包含交叉验证结果，格式为：
       {
@@ -229,34 +284,34 @@ def plot_roc_curves(cv_results_dict):
       }
     """
     import matplotlib.pyplot as plt
-    
+
     plt.figure(figsize=(10, 8))
-    
+
     # 设置中文显示
     plt.rcParams['font.sans-serif'] = ['SimHei']  # 中文显示支持
     plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
-    
+
     # 绘制对角线
     plt.plot([0, 1], [0, 1], 'k--', lw=1, alpha=0.6, label='随机猜测')
-    
+
     # 颜色设置
     colors = {
         'rf': '#F44336',  # 红色
         'mi': '#2196F3'   # 蓝色
     }
-    
+
     # 线型设置 - MI使用虚线
     line_styles = {
         'rf': '-',    # 实线
         'mi': '--'    # 虚线
     }
-    
+
     # 绘制每个数据集上的ROC曲线
     for data_type, results in cv_results_dict.items():
         mean_fpr = results['mean_fpr']
         mean_tpr = results['mean_tpr']
         auc_value = results['auc']
-        
+
         # 绘制ROC曲线
         plt.plot(
             mean_fpr, mean_tpr,
@@ -265,7 +320,7 @@ def plot_roc_curves(cv_results_dict):
             lw=2,
             label=f'改进Stacking-{data_type.upper()} (AUC = {auc_value:.4f})'
         )
-    
+
     # 设置图形样式
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
@@ -274,15 +329,15 @@ def plot_roc_curves(cv_results_dict):
     plt.title('改进Stacking模型在不同特征选择方法上的ROC曲线', fontsize=14)
     plt.legend(loc="lower right", fontsize=10)
     plt.grid(True, alpha=0.3)
-    
+
     # 添加坐标轴刻度
     plt.xticks(np.arange(0, 1.1, 0.1))
     plt.yticks(np.arange(0, 1.1, 0.1))
-    
+
     # 保存图形
-    plt.savefig('improved_stacking_roc_curves.png', dpi=300, bbox_inches='tight')
+    plt.savefig('./resultsImage/improved_stacking_roc_curves.png', dpi=300, bbox_inches='tight')
     plt.close()
-    
+
     print("ROC曲线图已保存为 improved_stacking_roc_curves.png")
     print("交叉验证AUC值：", {k: v['auc'] for k, v in cv_results_dict.items()})
 
@@ -297,24 +352,24 @@ if __name__ == "__main__":
 
         # 构建基学习器
         estimators = [
-            ('svm', SVC(random_state=2025, C=100 if 'mi' in feature_method else 10,
+            ('svm', SVC(random_state=2025, C=10 if 'mi' in feature_method else 10,
                         kernel='rbf',
-                        gamma=0.0001 if 'mi' in feature_method else 0.1, probability=True)),
-            ('xgb', XGBClassifier(random_state=2025, learning_rate=0.15 if 'mi' in feature_method else 0.1,
-                                  max_depth=3 if 'mi' in feature_method else 5,
-                                  gamma=0.4 if 'mi' in feature_method else 0.1,
-                                  n_estimators=30 if 'mi' in feature_method else 150,
-                                  subsample=0.95 if 'mi' in feature_method else 1.0,
-                                  colsample_bytree=0.3 if 'mi' in feature_method else 0.4)),
-            ('rf', RandomForestClassifier(random_state=2025, n_estimators=40 if 'mi' in feature_method else 60,
-                                          max_depth=10 if 'mi' in feature_method else 12,
-                                          min_samples_split=5 if 'mi' in feature_method else 2))
+                        gamma=0.01 if 'mi' in feature_method else 0.01, probability=True)),
+            ('xgb', XGBClassifier(random_state=2025, learning_rate=0.15 if 'mi' in feature_method else 0.05,
+                                  max_depth=7 if 'mi' in feature_method else 3,
+                                  gamma=0.1 if 'mi' in feature_method else 0,
+                                  n_estimators=50 if 'mi' in feature_method else 250,
+                                  subsample=0.9 if 'mi' in feature_method else 0.8,
+                                  colsample_bytree=0.1 if 'mi' in feature_method else 0.4)),
+            ('rf', RandomForestClassifier(random_state=2025, n_estimators=70 if 'mi' in feature_method else 20,
+                                          max_depth=10 if 'mi' in feature_method else 14,
+                                          min_samples_split=3 if 'mi' in feature_method else 6))
         ]
 
         # 使用加权堆叠分类器
         model = WeightedStackingClassifier(
             estimators=estimators,
-            alpha=0.45,  # 精确性权重比例
+            alpha=0.5 if 'mi' in feature_method else 0.7,  # 精确性权重比例
             cv=5
         )
 
@@ -325,11 +380,12 @@ if __name__ == "__main__":
 
     # 调用绘制ROC曲线的函数
     plot_roc_curves(cv_results_dict)
-    
+
     # 保存结果字典到文件
     import pickle
     with open('ModelPKL/stacking_improved_cv_results.pkl', 'wb') as f:
         pickle.dump(cv_results_dict, f)
     print("交叉验证结果已保存到 stacking_improved_cv_results.pkl")
+
 
 

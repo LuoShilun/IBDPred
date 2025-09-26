@@ -183,7 +183,7 @@ def evaluate_model(model, train_data, test_data):
     print("=" * 50 + "\n")
 
     # 保存训练好的模型
-    joblib.dump(model, f"model_{feature_method}_weighted.pkl")
+    joblib.dump(model, f"./ModelPKL/model_{feature_method}_weighted.pkl")
     print(f"模型已保存为 model_{feature_method}_weighted.pkl 文件")
     
     return {
@@ -204,20 +204,20 @@ if __name__ == "__main__":
 
         # 构建基学习器
         estimators = [
-            ('svm', SVC(random_state=2025, C=100 if 'mi' in feature_method else 10,
+            ('svm', SVC(random_state=2025, C=10 if 'mi' in feature_method else 10,
                         kernel='rbf',
-                        gamma=0.0001 if 'mi' in feature_method else 0.1, probability=True)),
-            ('xgb', XGBClassifier(random_state=2025, learning_rate=0.15 if 'mi' in feature_method else 0.1,
-                                  max_depth=3 if 'mi' in feature_method else 5,
-                                  gamma=0.4 if 'mi' in feature_method else 0.1,
-                                  n_estimators=30 if 'mi' in feature_method else 150,
-                                  subsample=0.95 if 'mi' in feature_method else 1.0,
-                                  colsample_bytree=0.3 if 'mi' in feature_method else 0.4)),
-            ('rf', RandomForestClassifier(random_state=2025, n_estimators=40 if 'mi' in feature_method else 60,
-                                        max_depth=10 if 'mi' in feature_method else 12,
-                                        min_samples_split=5 if 'mi' in feature_method else 2)),
+                        gamma=0.01 if 'mi' in feature_method else 0.1, probability=True)),
+            ('xgb', XGBClassifier(random_state=2025, learning_rate=0.15 if 'mi' in feature_method else 0.05,
+                                  max_depth=7 if 'mi' in feature_method else 3,
+                                  gamma=0.1 if 'mi' in feature_method else 0,
+                                  n_estimators=50 if 'mi' in feature_method else 200,
+                                  subsample=0.9 if 'mi' in feature_method else 0.8,
+                                  colsample_bytree=0.1 if 'mi' in feature_method else 0.1)),
+            ('rf', RandomForestClassifier(random_state=2025, n_estimators=70 if 'mi' in feature_method else 20,
+                                          max_depth=10 if 'mi' in feature_method else 14,
+                                          min_samples_split=3 if 'mi' in feature_method else 6)),
             # 添加逻辑回归模型
-            ('lr', LogisticRegression(random_state=2025, C=1.0))
+            ('lr', LogisticRegression(random_state=2025, C=0.01))
         ]
 
         # 使用加权平均集成学习模型
@@ -254,7 +254,7 @@ if __name__ == "__main__":
     plt.ylabel('True Positive Rate', fontsize=12)
     plt.title('Weighted Average ROC Curve', fontsize=14)
     plt.legend(loc='lower right')
-    plt.savefig('weighted_average_roc.png', dpi=300, bbox_inches='tight')
+    plt.savefig('./resultsImage/weighted_average_roc.png', dpi=300, bbox_inches='tight')
     plt.close()
         
     print("ROC曲线已保存为 weighted_average_roc.png")

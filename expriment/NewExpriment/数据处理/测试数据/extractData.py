@@ -20,8 +20,8 @@ from pathlib import Path
 
 # 1. 设置路径
 train_path = 'r_dataset.csv'  # 替换为你的训练集文件名
-test_path  = 'hab.csv'  # 替换为你的测试集文件名
-out_dir    = '../实验4'  # 输出目录，可改成任意路径
+test_path  = '../../原始数据/hab.csv'  # 替换为你的测试集文件名
+out_dir    = '../../实验4'  # 输出目录，可改成任意路径
 
 # 2. 读入数据
 df_train = pd.read_csv(train_path)

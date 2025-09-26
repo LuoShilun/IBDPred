@@ -151,7 +151,7 @@ if __name__ == "__main__":
     
     # 保存结果字典到文件
     import pickle
-    with open('stacking_cv_results.pkl', 'wb') as f:
+    with open('ModelPKL/stacking_cv_results.pkl', 'wb') as f:
         pickle.dump(cv_results_dict, f)
     print("交叉验证结果已保存到 stacking_cv_results.pkl")
 
